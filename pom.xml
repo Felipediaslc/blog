@@ -15,6 +15,12 @@
 	<description>Project for Spring Boot</description>
 
 	<properties>
+	        <sonar.projectKey>Blog</sonar.projectKey>
+		<sonar.host.url>http://ip172-18-0-7-bunhou1qckh0008nircg-9000.direct.labs.play-with-docker.com</sonar.host.url>
+		<sonar.login>0462d092211f64e99f3f2c90941e0b4aaf7266d9</sonar.login>	
+		<sonar.language>java</sonar.language>	
+		<sonar.sources>src/main/java</sonar.sources>
+		<sonar.java.binaries>target/classes</sonar.java.binaries>
 		<java.version>11</java.version>
 	</properties>
 
